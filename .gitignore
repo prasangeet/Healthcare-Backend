@@ -1,0 +1,79 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# ----------------------
+# Django
+# ----------------------
+*.log
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# migrations (optional — keep if assignment requires them)
+# */migrations/*
+# !*/migrations/__init__.py
+
+# ----------------------
+# Environment Variables
+# ----------------------
+.env
+.env.*
+!.env.example
+
+# ----------------------
+# IDE / Editor
+# ----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ----------------------
+# OS files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Testing / Coverage
+# ----------------------
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ----------------------
+# Build / Packaging
+# ----------------------
+build/
+dist/
+*.egg-info/
+
+# ----------------------
+# Docker
+# ----------------------
+docker-data/
+postgres_data/
+
+# ----------------------
+# Node (if frontend added later)
+# ----------------------
+node_modules/
+
+# ----------------------
+# Jupyter
+# ----------------------
+.ipynb_checkpoints/
+
